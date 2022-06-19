@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        <title>Porcentajes y Descuentos</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet"> 
+        <link rel="shortcut icon" type="image/png" href="#"/>
+		<link rel="stylesheet" type="text/css" href="porcentajes_y_descuentos.css"/>
+    </head>
+	<body>
+		<main class="main">
+			<form class="form" name="Descuentos" autocomplete="off">
+				<fieldset class="form-section">
+					<legend class="form-section__title-container"><h2 class="form-section__title">Calculadora de Descuentos</h2></legend>
+					<section class="form-section__subsection">
+						<label for="price_input"><h3 class="form-section__subtitle">¿Cuál es el precio original del producto?</h3></label>
+						<input class="form-section__input" id="price_input" type="number" min="0" placeholder="Precio Original"/>
+					</section>
+					<section class="form-section__subsection">
+						<label for="discount_value"><h3 class="form-section__subtitle">¿De cuánto es el descuento del producto?</h3></label>
+						<h4 class="form-section__range_value" id="printed_discount">50%</h4>
+						<input class="form-section__range" id="discount_value" type="range"/>
+						<button type="button" class="form-section__button" id="button">¡Calcular!</button>
+					</section>
+					<h3 id="new_price" class="form-section__subtitle"></h3>
+				</fieldset>
+			</form>
+		</main>
+		<script type="text/javascript" src="porcentajes_y_descuentos.js"></script>
+    </body>
+</html>
