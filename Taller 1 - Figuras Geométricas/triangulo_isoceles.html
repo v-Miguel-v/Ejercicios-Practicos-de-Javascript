@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        <title>Triángulo Isóceles</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet"> 
+        <link rel="shortcut icon" type="image/png" href="#"/>
+		<link rel="stylesheet" type="text/css" href="figuras.css"/>
+    </head>
+	<body>
+		<main class="main">
+			<form class="form" name="Altura-de-un-Triangulo-Isoceles" autocomplete="off">
+				<fieldset class="form-section">
+					<legend class="form-section__title-container"><h2 class="form-section__title">Altura de un<br/>Triángulo Isóceles</h2></legend>
+					<label for="lado1_triangulo">
+						<h3 class="form-section__subtitle">¿Cuánto miden los lados del Triángulo Isóceles?</h3>
+					</label>
+					<div class="grid-container-3x2">
+						<label for="lado1_triangulo" class="grid-container-3x2__item"><input class="form-section__input" id="lado1_triangulo" type="number" min="0" placeholder="Lado 1"/></label>
+						<label for="lado2_triangulo" class="grid-container-3x2__item"><input class="form-section__input" id="lado2_triangulo" type="number" min="0" placeholder="Lado 2"/></label>
+						<label for="base_triangulo" class="grid-container-3x2__item"><input class="form-section__input" id="base_triangulo" type="number" min="0" placeholder="Base"/></label>
+						<button type="button" class="form-section__button grid-container-3x2__item grid-container-3x2__item--big-area" id="button_triangulo">¡Calcular!</button>
+					</div>
+				</fieldset>
+			</form>
+		</main>
+		<script type="text/javascript" src="triangulo_isoceles.js"></script>
+    </body>
+</html>
